@@ -1,6 +1,8 @@
+# Shift AST Traverser
+
 Allows you to easily traverse Shift ASTs or AST nodes.
 
-# Usage
+## Usage
 
 ### traverse
 

@@ -8,7 +8,7 @@ interface TraversalVisitor {
 }
 
 /**
- * 
+ * Traverses a Shift AST or AST node.
  * @param node The Shift AST or node.
  * @param visitor The visitor object.
  * @param parent The parent node (optional, only used internally).
