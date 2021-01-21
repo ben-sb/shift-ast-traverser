@@ -1,6 +1,6 @@
 # Shift AST Traverser
 
-Allows you to easily traverse Shift ASTs or AST nodes.
+Allows you to easily traverse Shift ASTs or AST nodes. [shift-traverser](https://github.com/Constellation/shift-traverse-js) wasn't working for me so I wrote this.
 
 ## Usage
 
