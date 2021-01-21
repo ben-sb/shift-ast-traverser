@@ -1,0 +1,21 @@
+{
+  "name": "shift-ast-traverser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && node dist/replace.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "shift-ast": "^6.1.0",
+    "shift-refactor": "^2.0.0",
+    "shift-spec": "^2018.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22"
+  }
+}
