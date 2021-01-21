@@ -6,7 +6,7 @@ Allows you to easily traverse Shift ASTs or AST nodes.
 
 ### traverse
 
-```
+```javascript
 const source = `let a = 'Hello World';`
 const $script = refactor(source);
 traverse($script, {
@@ -21,7 +21,7 @@ traverse($script, {
 
 ### replace
 
-```
+```javascript
 const source = `let message = 'Hello World';`
 const $script = refactor(source);
 
