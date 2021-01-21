@@ -11,7 +11,7 @@ interface ReplaceVisitor {
  * @param node The Shift AST or AST node.
  * @param visitor The visitor object.
  * @param parent The parent node (optional, only used internally).
- * @param parentField The parent field (optional, only used internally)
+ * @param parentField The parent field (optional, only used internally).
  */
 export function replace(node: Shift.Node | RefactorSessionChainable, visitor: ReplaceVisitor, parent?: Shift.Node, parentField?: string): void {
     if (node instanceof RefactorSessionChainable) {

@@ -9,6 +9,7 @@ Allows you to easily traverse Shift ASTs or AST nodes.
 ```javascript
 const source = `let a = 'Hello World';`
 const $script = refactor(source);
+
 traverse($script, {
     enter: function(node) {
         console.log(`Entering ${node.type}`);
